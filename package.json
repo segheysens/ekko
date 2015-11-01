@@ -2,7 +2,7 @@
   "name": "socialdash",
   "version": "0.0.1",
   "description": "A social media dashboard for keeping track of when users interact with your website/application",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,8 +25,14 @@
   },
   "homepage": "https://github.com/segheysens/socialdash#readme",
   "dependencies": {
+    "connect-session-sequelize": "^2.3.1",
     "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "flash": "^1.1.0",
     "passport": "^0.3.0",
+    "passport-facebook": "^2.0.0",
+    "passport-twitter": "^1.0.3",
+    "pg": "^4.4.3",
     "sequelize": "^3.13.0"
   }
 }
