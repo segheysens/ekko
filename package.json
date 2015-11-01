@@ -1,0 +1,32 @@
+{
+  "name": "socialdash",
+  "version": "0.0.1",
+  "description": "A social media dashboard for keeping track of when users interact with your website/application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segheysens/socialdash.git"
+  },
+  "keywords": [
+    "'social",
+    "media'",
+    "twitter",
+    "facebook",
+    "dashboard",
+    "marketing"
+  ],
+  "author": "Stephen Gheysens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/segheysens/socialdash/issues"
+  },
+  "homepage": "https://github.com/segheysens/socialdash#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "passport": "^0.3.0",
+    "sequelize": "^3.13.0"
+  }
+}
