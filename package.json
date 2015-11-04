@@ -1,7 +1,7 @@
 {
-  "name": "socialdash",
-  "version": "0.0.1",
-  "description": "A social media dashboard for keeping track of when users interact with your website/application",
+  "name": "ekko",
+  "version": "0.0.2",
+  "description": "A small Node for enhancing the sharing of ideas, and montioring that sharing. Have your voice ekko'd!",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
